@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>MY RESUME</title>
+</head>
+<style>
+body
+{
+   
+    font-family: Georgia;
+   
+}
+.mainbox{
+	position: absolute;
+    height: 100%;
+    width:60%;
+    background:#ffefd5;
+    top: 0;
+    left: 18%;
+  
+}
+
+/* On screens that are 992px wide or less, the background color is blue */
+@media screen and (max-width: 992px) {
+    .mainbox {
+        position: absolute;
+        width:80%;
+    }
+}
+
+/* On screens that are 600px wide or less, the background color is olive */
+@media screen and (max-width: 600px) {
+     .mainbox {
+        position: absolute;
+        width:80%;
+    }
+}
+
+
+.box{
+	position: absolute;
+    height: 100%;
+    width:97%;
+    background:#ffefd5;
+    top: 0%;
+    left: 1.5%;
+  
+}
+.header{
+	position: absolute;
+   
+    background:none;
+    width: 100%;
+    height: 10%;
+    
+   
+    border-bottom: 2px solid #760001;
+   
+   
+}
+.flags img{
+position: relative;
+  margin-top:0%;
+left:88%;
+	height: 0.8%;
+    width:2%;
+padding: 0.5%;
+ 
+}
+nav{
+	position: absolute;
+	top: 0%;
+	right:0%;
+	padding:10px;
+    display: inline-block;
+     
+   
+    
+}
+
+/* On screens that are 992px wide or less, the background color is blue */
+@media screen and (max-width: 992px) {
+    nav {
+        position: absolute;
+        right:0%;
+        top:0;
+    }
+}
+
+/* On screens that are 600px wide or less, the background color is olive */
+@media screen and (max-width: 600px) {
+     nav {
+        position: absolute;
+        right:0%;
+        top:0%;
+    }
+}
+
+
+
+
+nav a:hover{
+	color: #760001;
+    border-bottom: 3px solid #760001;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+   
+   
+     
+   
+   
+}
+li {
+	position: relative;
+    float: right;
+    margin-top:9%;
+    
+     
+     
+}
+li a {
+    
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    color: black;
+    
+   
+    
+}
+.rotate {
+  color: black;
+  
+  font-size: 200%;
+  
+  text-decoration: none;
+  
+  
+  position: absolute;
+  top: 28%;
+  left: 2%;
+  
+  
+  
+  
+   
+    font-family: Times New Roman;
+  
+  
+  
+}
+.center { 
+    height: 25%;
+    width:100%;
+    position: absolute;
+    border: 3px solid none; 
+    top:14%;
+}
+.center img {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    border-radius:5px;
+     box-shadow: 0px 4px 4px #1c1a19;
+   
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+#description
+{
+    position: absolute;
+   top: 33.2%;
+    border-radius: 0px 0px 5px 5px;
+    width: 99.5%;
+    height: 33px;
+    padding-top: 15px;
+    padding-left: 4px;
+    
+    color: white;
+    font-size: 1.5em;
+    opacity: 0.7;
+    animation:type 4s steps(32) ;
+    overflow:hidden;
+    white-space:nowrap;
+    
+}
+@keyframes type{
+	0%{width:0ch;}
+	100%{width:22ch;}
+}
+.coverletter{
+	position: absolute;
+    height: 50%;
+    width:60%;
+    background:#ffefd5;
+    top: 40%;
+    left: 2%;
+    border: 1px solid none;
+    
+      line-height: 200%;
+overflow:auto;
+}
+.coverletter p{
+	position: absoulte;
+    top: 5%;
+    text-indent: 50px;
+    text-align: justify;
+}
+.mypic{
+	position: absolute;
+    height: 50%;
+    width:36%;
+    background:#696969;
+    top: 40%;
+    right:1%;
+     border: 1px solid none;
+     border-radius: 5px;
+}
+.mypic p{
+	position: relative;
+	color: white;
+	top: 70%;
+	left: 25%;
+display: inline-block;
+line-height: 200%;
+font-family: ballpark weiner;
+font-size: 100%;
+}
+img{
+	position:absolute;
+	display:inline-block;
+    left:17%;
+    top:3%;
+    width:68%;
+    border-radius:5px;
+}
+#a{
+	position:absolute;
+	display:inline-block;
+    left:5%;
+    top:83%;
+    width:18%;
+    border-radius:0px;
+}
+.footer{
+	position: absolute;
+    bottom:0;
+    background:none;
+    width: 98%;
+    height: 9%;
+left: 1%;
+    
+   
+    border-top: 1.5px solid #760001;
+   
+   
+}
+.adress{
+	position:absolute;
+    top: 8%;
+    left: 10%;
+    line-height: 200%;
+    
+}
+.phone{
+	position:absolute;
+    left: 65%;
+    top: 8%;
+    
+}
+.email{
+	position:absolute;
+    left: 65%;
+    top: 40%;
+
+button{
+	position:absolute;
+    padding:5%;
+    border: white;
+    background:none;
+    font-size:10px;
+    color:white;
+    top:20%;
+    cursor:pointer;
+}
+.next{
+position:absolute;
+border-radius:10px 0px 0px 10px;
+right:0%;
+top:30%;
+}
+.prew{
+position:absolute;
+border-radius:0px 10px 10px 0px;
+left:-2%;
+top:30%;
+}
+ 
+ li a.active {
+    color: brown;
+}
+ 
+body *,
+html * {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+body {
+  overflow: hidden;
+}
+.full {
+  position: absolute;
+  
+  height: auto;
+  top: 50%;
+  bottom: 0;
+  left: 50%;
+  right: 0;
+  margin: auto;
+  display: block;
+  
+}
+  
+@keyframes scale {
+  50% {
+    -webkit-transform:scale(1.1);
+    -moz-transform:scale(1.1);
+    -ms-transform:scale(1.1);
+    -o-transform:scale(1.1);
+    transform:scale(1.1);
+  }
+}
+</style>
+<body>
+<div class="mainbox">
+<div class="box">
+<div class="header">
+<div class="flags">
+  <a class="active" href="index.html" title="English"><img src="https://cdn3.iconfinder.com/data/icons/finalflags/128/United-States-Flag.png" /></a>
+   
+    <a href="Homegerman.html" title="German"><img src="https://cdn3.iconfinder.com/data/icons/finalflags/128/Germany-Flag.png" /></a>
+</div>
+
+
+
+
+<div class="rotate">DIVYA MALLINI</div>
+
+
+<nav>
+<ul>
+	<li><a href="contact.html">CONTACT</a></li>
+  
+  <li><a href="certificates.html">CERTIFICATES</a></li>
+  <li><a href="Resume.html">RESUME</a></li>
+
+  <li><a class="active" href="index.html">HOME</a></li>
+  
+</ul>
+
+</nav>
+
+</div>
+
+<div class="center">
+ 
+
+
+
+
+	<div id="box">
+    	<img src="http://www.phil.uni-mannheim.de/Praxis%20&%20Beruf/bewerbung_cv.jpg">
+        </div>
+        
+        
+        
+        
+        
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="coverletter">
+
+<strong>Dear Hiring Manager,</strong><br>
+<p>
+ I am writing to express my interest for the position of QA Engineer. Along with Master's degree in computer applications I have more than one year of project experience . The key strengths that I possess for success in the position include:<br>
+ <br> Extensive experience in performing Functional und Regression testing.
+ <br> Experience in Agile Development process (Scrum Methodologies).
+  <br> Excellent knowledge in bug life cycle and test case design.
+<br>Good experience on bug tracking tool and good knowledge on test management tool.
+<br>Knowledge and experience in MY SQL server.
+<br>Excellent English language skills and B1 level German knowledge.
+
+<br>
+<p>
+Thank you very much for your time and consideration. I look forward to speaking with you about this employment opportunity.
+</p>
+
+
+</div>
+<div class="mypic">
+<img src="https://scontent-ams3-1.xx.fbcdn.net/v/t1.0-9/36225541_1748627431895871_8492717311470338048_n.jpg?_nc_cat=0&oh=865bac6ce3bf674ff6fea9e26a9e976d&oe=5BD8870C">
+
+<p>NAME : DIVYA MALLINI <br>
+   DOB : 02.06.1987
+</p>
+
+
+</div>
+
+
+<div class="footer">
+<div class="adress">Hellinghäuser Weg 2A <br>
+59557 Lippstadt 
+Germany
+
+</div>
+<div class="phone">Phone : 017684943779 
+
+</div>
+<div class="email">Email : divya.mallini@gmx.de</div>
+
+
+
+</div>
+  </div>            
+</body>
+</html>
