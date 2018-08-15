@@ -8,7 +8,8 @@
 </head>
 <style>
 body
-{   
+{
+   
     font-family: Georgia;
    
 }
@@ -21,8 +22,7 @@ body
     left: 18%;
   
 }
-
-@media screen and (max-width: 1440px) {
+	@media screen and (max-width: 1440px) {
     .mainbox {
         position: absolute;
         width:80%;
@@ -47,9 +47,6 @@ body
         width:100%;
     }
 }
-
-
-
 .box{
 	position: absolute;
     height: 100%;
@@ -90,8 +87,28 @@ nav{
    
     
 }
+	
+
+@media screen and (max-width: 992px) {
+    nav {
+        position: absolute;
+        right:0%;
+        top:0;
+    }
+}
 
 
+@media screen and (max-width: 600px) {
+     nav {
+        position: absolute;
+        right:0%;
+        top:0%;
+    }
+}	
+	
+	
+	
+	
 nav a:hover{
 	color: #760001;
     border-bottom: 3px solid #760001;
@@ -125,6 +142,8 @@ li a {
    
     
 }
+
+
 .rotate {
   color: black;
   
@@ -142,10 +161,12 @@ li a {
   
    
     font-family: Times New Roman;
+
   
   
   
 }
+
 .center { 
     height: 25%;
     width:100%;
@@ -205,6 +226,7 @@ overflow:auto;
     top: 5%;
     text-indent: 50px;
     text-align: justify;
+
 }
 .mypic{
 	position: absolute;
@@ -272,6 +294,8 @@ left: 1%;
 	position:absolute;
     left: 65%;
     top: 40%;
+    
+}
 
 button{
 	position:absolute;
@@ -320,6 +344,7 @@ body {
   display: block;
   
 }
+
   
 @keyframes scale {
   50% {
@@ -335,7 +360,8 @@ body {
 <div class="mainbox">
 <div class="box">
 <div class="header">
- <a class="active" href="index.html" title="English"><img src="https://cdn3.iconfinder.com/data/icons/finalflags/128/United-States-Flag.png" /></a>
+<div class="flags">
+  <a class="active" href="index.html" title="English"><img src="https://cdn3.iconfinder.com/data/icons/finalflags/128/United-States-Flag.png" /></a>
    
     <a href="Homegerman.html" title="German"><img src="https://cdn3.iconfinder.com/data/icons/finalflags/128/Germany-Flag.png" /></a>
 </div>
@@ -354,6 +380,7 @@ body {
   <li><a href="Resume.html">RESUME</a></li>
 
   <li><a class="active" href="index.html">HOME</a></li>
+  
 </ul>
 
 </nav>
